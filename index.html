@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login | SocialRolling</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-pricipal">Social Rolling</h1>
+    </header>
+    <section class="section-login">
+
+        <span class="section-login__content-icon">
+            <i class="fas fa-user section-login__icon-user"></i>
+        </span>
+
+        <form action="#" method="post" class="section-login__form" id="form">
+            <h2 class="section-login__titulo-login">Login</h2>
+            <div class="msg-error--credential">
+                "Las credenciales ingresadas son incorrectas"
+            </div>
+            <div>
+                <label for="user" class="section-login__label">Usuario</label>
+                <div class="content-validation-user">
+                    <input type="email" name="email" class="section-login__input " name="user " autocomplete="off " placeholder="usuario@gmail.com " required>
+                    <i class="fas fa-times fa-times__error "></i>
+                    <i class="fas fa-check-circle fa-check-circle__check "></i>
+                </div>
+
+                <ul class="msg-error ">
+                    <li>Es requerido</li>
+                    <li>Debe tener formato de email</li>
+                </ul>
+            </div>
+            <div>
+                <label for="password " class="section-login__label ">Contraseña</label>
+                <div class="content-validation-password ">
+                    <input type="password" name="password" class="section-login__input " name="password " placeholder="********** " required>
+                    <i class="fas fa-times fas fa-times__error "></i>
+                    <i class="fas fa-check-circle fa-check-circle__check "></i>
+                </div>
+                <ul class="msg-error ">
+                    <li>Es requerido</li>
+                    <li>Maximo 8 caracteres</li>
+                    <li>Debe ser alfanumérico</li>
+                    <li>Debe tener al menos uno de los sig: # & * %</li>
+                </ul>
+            </div>
+
+            <button type="submit" disabled id="btn-submit" class="section-login__input section-login__input--submit">Login</button>
+
+            <a href="/logged.html" class="section-login__a-form ">Continue as guest</a>
+
+        </form>
+    </section>
+
+
+    <script src="script.js "></script>
+</body>
+
+
+</html>

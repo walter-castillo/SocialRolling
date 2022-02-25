@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <title>Login | SocialRolling</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+    <heaader class="header__stories"></heaader>
+    <div class="photos-content"></div>
+
+    <!--modal story -->
+    <section class="modal__content" id="modalStory">
+        <div class="modal__content-cerrar ">
+            <p class="modal__cerrar ">X</p>
+        </div>
+        <img id="modal-img" class="modal__img" />
+        <!-- <i class="far fa-hand-spock modal-like"></i> -->
+        <i class="far fa-heart modal-like"></i>
+        <p class="modal-date"></p>
+    </section>
+
+    <!--modal new post -->
+    <section class="modal__content" id="modalNewPost">
+        <div class="modal__content-cerrar">
+            <p class="modal__cerrar">X</p>
+        </div>
+        <div class="section-login__form section-login__form--border">
+            <h2 class="section-login__titulo-login">New Post</h2>
+
+            <div>
+                <label for="url" class="section-login__label">URL</label>
+                <div class="content-validation-user">
+                    <input type="text" name="url" id="inputUrl" class="section-login__input" placeholder="https://picsum.photos.jpg" required>
+                </div>
+            </div>
+
+            <button disabled id="btn-new-post" class="section-login__input section-login__input--submit">Create Post</button>
+        </div>
+    </section>
+
+    <footer class="footer ">
+        <p>Proyecto redRolling</p>
+    </footer>
+    <script type="module" src="logged.js "></script>
+</body>
+
+</html>
