@@ -1,14 +1,35 @@
 # Proyecto Challenge: Social Rolling
  _Desarrollado por:_ 
  Walter Castillo, Comisión 27i
-El proyecto fue desarrollado integramente con HTML5, JAVASCRIPT PURO, CSS3.  
+:round_pushpin: El proyecto fue desarrollado integramente con HTML5, JAVASCRIPT PURO, CSS3.  
 
-Usé Metodologia BEM para el nombrado de las clases para poder aplicar los estilos CSS.  
+:round_pushpin: Usé Metodologia BEM para el nombrado de las clases para poder aplicar los estilos CSS.  
 
-Elegí Grid para definir layout y complemente con  flexBox para alinear elementos. 
-Apliqué Javascript ES6(Arrow Funtion, find, FindIndex, Modules).
-Use la propagación de eventos y generar maximo dos eventos por nodos.
+:round_pushpin: Elegí Grid para definir layout y complemente con  flexBox para alinear elementos.  
+
+:round_pushpin: Apliqué Javascript ES6(Arrow Funtion, find, FindIndex, Modules).  
+
+:round_pushpin: Use la propagación de eventos y generar maximo dos eventos por nodos.  
 
 
-## Features
-:heavy_check_mark:
+## caracteristicas y flujo del proyecto 
+Ingresamos en en la pagina principal [index.html](https://dazzling-tereshkova-cc9a5c.netlify.app/) donde nos aparece un alert con usuario y la contaseña, y se cargaran los datos del usuario en localStorage con la clave de "user" y las historias con la clave de "stories",
+Podemos loguearnos o ingresar como invitado  
+
+El formulario de login se validara mediante expreciones regulares cada vez  pulsamos una tecla o abadonamos el input.  
+
+###Usuario logueado:
+Puede ver las historias en un modal con intervelo de 3 segundo.  
+
+El modal se cierra despues de la tercera historia o si se terminan o si lo cerramos desde la "x".  
+
+El usuario podra darle like indefinidamente en el modal o en la publicacion en el "muro".  
+
+Podra eliminar el Post desde el "muro".
+
+Cada vez que visitamos una historia, el circulo verde que la rodea cambiara a "blanco".
+
+El usuario haciendo click a su imagen de perfil puede cargar una historia nueva con un link externo  
+
+Si el link de la historia no es valido mostrará una imagen de "NO DISPONIBLE".  
+
