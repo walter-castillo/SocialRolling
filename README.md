@@ -18,18 +18,29 @@ Podemos loguearnos o ingresar como invitado
 
 El formulario de login se validara mediante expreciones regulares cada vez  pulsamos una tecla o abadonamos el input.  
 
-###Usuario logueado:
-Puede ver las historias en un modal con intervelo de 3 segundo.  
+### Usuario logueado:  
 
-El modal se cierra despues de la tercera historia o si se terminan o si lo cerramos desde la "x".  
+- Puede ver las historias en un modal con intervelo de 3 segundo.  
 
-El usuario podra darle like indefinidamente en el modal o en la publicacion en el "muro".  
+- El modal se cierra despues de la tercera historia o si se terminan o si lo cerramos desde la "x".  
 
-Podra eliminar el Post desde el "muro".
+- El usuario podra darle like indefinidamente en el modal o en la publicacion en el "muro".  
 
-Cada vez que visitamos una historia, el circulo verde que la rodea cambiara a "blanco".
+- Podra eliminar el Post desde el "muro".
 
-El usuario haciendo click a su imagen de perfil puede cargar una historia nueva con un link externo  
+- Cada vez que visitamos una historia, el circulo verde que la rodea cambiara a "blanco".
 
-Si el link de la historia no es valido mostrará una imagen de "NO DISPONIBLE".  
+- El usuario haciendo click a su imagen de perfil puede cargar una historia nueva con un link externo  
+- Si el link de la historia no es valido mostrará una imagen de "NO DISPONIBLE".  
+
+### Usuario Invitado:  
+
+- Igual que el usuario logueda, solamemte que no pude eliminar y cargar post.  
+
+- El modal de historias se le mostrará con intervalo de 3seg y se cerrará caundo llegue al final y lo redirigirá a  [register.html](https://dazzling-tereshkova-cc9a5c.netlify.app/register.html)  y lo invitará  a registrarse, donde lo llevará a la página  [404.html](https://dazzling-tereshkova-cc9a5c.netlify.app/404.html) y desde ahí podrá volver al inicio.  
+
+
+### caracaterísticas generales:
+
+- cada vez que actualizamos la pagina o ingresamos de nuevo el localstorage volvera al estado inicial.
 
