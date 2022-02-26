@@ -45,3 +45,15 @@ El formulario de login se validará mediante expresiones regulares cada vez  pul
 
 - cada vez que actualizamos la pagina o ingresamos de nuevo el localstorage volvera al estado inicial.
 
+
+### Link del proyecto:  
+
+[Link del Proyecto](https://dazzling-tereshkova-cc9a5c.netlify.app/)  
+
+
+![qr del Proyecto](https://yourfiles.cloud/uploads/773613c98bcda47447a781aa78255a4d/bfaf994f0df22ec6dce521af4df2416e.png)
+
+
+
+
+
