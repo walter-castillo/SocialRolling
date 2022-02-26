@@ -1,6 +1,5 @@
 # Proyecto Challenge: Social Rolling
- _Desarrollado por:_ 
- Walter Castillo, Comisión 27i  
+ _Desarrollado por:_  **Walter Castillo, Comisión 27i**  
 
 :round_pushpin: El proyecto fue desarrollado integramente con HTML5, JAVASCRIPT PURO, CSS3.  
 
@@ -13,7 +12,7 @@
 :round_pushpin: Usé la propagación de eventos y generar máximo dos eventos por nodos.  
 
 
-## caracteristicas y flujo del proyecto 
+## Características y flujo del proyecto 
 Ingresamos en en la pagina principal [index.html](https://dazzling-tereshkova-cc9a5c.netlify.app/) donde nos aparece un alert con usuario y la contaseña, y se cargarán los datos del usuario en localStorage con la clave de "user" y las historias con la clave de "stories",
 Podemos loguearnos o ingresar como invitado  
 
